@@ -71,19 +71,19 @@ h1 {
   }
   
   .mood-happy {
-	background-color: green !important;
+	background-color: #93C572 !important;
   }
   
   .mood-neutral {
-	background-color: gray !important;
+	background-color: #FBEC5D !important;
   }
   
   .mood-sad {
-	background-color: blue !important;
+	background-color: #89CFF0 !important;
   }
   
   .mood-angry {
-	background-color: red !important;
+	background-color: #FF7F7F !important;
   }
   
   /* Calendar */
@@ -97,7 +97,10 @@ h1 {
   
   .react-calendar__tile {
 	transition: background-color 0.3s ease, transform 0.2s ease;
-	border-radius: 8px;
+	border-radius: 50%;
+	height: 40px;
+  	width: 40px;
+	/* margin: 2px; */
   }
   
   .react-calendar__tile--active {
@@ -112,22 +115,23 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 40px;
+	/* height: 40px; */
+  	width: 40px;
   }
   
   .react-calendar__tile--mood-happy {
-	background-color: green !important;
+	background-color: #93C572 !important;
   }
   
   .react-calendar__tile--mood-neutral {
-	background-color: gray !important;
+	background-color: #FBEC5D !important;
   }
   
   .react-calendar__tile--mood-sad {
-	background-color: blue !important;
+	background-color: #89CFF0 !important;
   }
   
   .react-calendar__tile--mood-angry {
-	background-color: red !important;
+	background-color: #FF7F7F !important;
   }
   

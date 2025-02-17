@@ -5,10 +5,10 @@ import 'react-calendar/dist/Calendar.css'; // Import calendar styles
 import './MoodTracker.css'; // Custom styles
 
 const moods = {
-  happy: { label: 'Happy', color: 'green', icon: <FaSmile size={20} color="green" /> },
-  neutral: { label: 'Neutral', color: 'gray', icon: <FaMeh size={20} color="gray" /> },
-  sad: { label: 'Sad', color: 'blue', icon: <FaFrown size={20} color="blue" /> },
-  angry: { label: 'Angry', color: 'red', icon: <FaAngry size={20} color="red" /> }
+  happy: { label: 'Happy', color: '#93C572', icon: <FaSmile size={20} color="#93C572" /> },
+  neutral: { label: 'Neutral', color: '#FBEC5D', icon: <FaMeh size={20} color="#FBEC5D" /> },
+  sad: { label: 'Sad', color: '#89CFF0', icon: <FaFrown size={20} color="#89CFF0" /> },
+  angry: { label: 'Angry', color: '#FF7F7F', icon: <FaAngry size={20} color="#FF7F7F" /> }
 };
 
 const MoodTracker = () => {
